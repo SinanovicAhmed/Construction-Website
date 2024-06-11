@@ -7,10 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        unlock: ["var(--font-unlock)"],
+        poppins: ["var(--font-poppins)"],
+      },
+      colors: {
+        primary_orange: "#FF7420",
+        primary_gray: "#191A19",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        hero_image: "url('/hero_image.jpg')",
       },
     },
   },
