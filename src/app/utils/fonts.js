@@ -9,7 +9,7 @@ const unlock_init = Unlock({
 const poppins_init = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
-  weight: "400",
+  weight: ["300", "400"],
 });
 
 const inter_init = Inter({ subsets: ["latin"], variable: "--font-inter" });
