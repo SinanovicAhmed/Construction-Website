@@ -3,9 +3,9 @@ import CheckmarkSVG from "../../../public/svg/CheckmarkSVG";
 
 const About = () => {
   return (
-    <section className="w-full bg-primary_gray">
-      <div className="relative mx-auto max-w-[1400px] px-6 md:px-10">
-        <div class="absolute hidden lg:block bg-primary_orange top-0 right-10 transform -translate-y-1/2 text-center rounded-lg p-6 space-y-4">
+    <section id="about" className="w-full scroll-mt-24 bg-primary_gray">
+      <div className="relative mx-auto max-w-[1280px] px-6 md:px-10">
+        <div className="absolute hidden lg:block bg-primary_orange top-0 right-10 transform -translate-y-1/2 text-center rounded-lg p-6 space-y-4">
           <span className="flex gap-2">
             <CheckmarkSVG />
             <p className="text-white text-sm lg:text-base font-light">
@@ -25,16 +25,16 @@ const About = () => {
             </p>
           </span>
         </div>
-        <div className="w-full flex gap-8 py-12">
+        <div className="w-full flex gap-8 py-10 sm:py-12">
           <span className="flex items-center gap-2">
-            <h2 className="text-primary_orange font-bold text-3xl">25+</h2>
+            <h2 className="text-primary_orange font-bold text-xl sm:text-3xl">25+</h2>
             <p className="text-white text-sm">
               Years of
               <br /> Experience
             </p>
           </span>
           <span className="flex items-center gap-2">
-            <h2 className="text-primary_orange font-bold text-3xl">80+</h2>
+            <h2 className="text-primary_orange font-bold text-xl sm:text-3xl">80+</h2>
             <p className="text-white text-sm">
               Projects
               <br /> completed
@@ -42,7 +42,7 @@ const About = () => {
           </span>
         </div>
 
-        <div className="flex justify-between items-center gap-2 lg:gap-24 pt-8">
+        <div className="flex justify-between items-end gap-2 lg:gap-24">
           <div className="relative hidden md:block flex-none w-[300px] h-[300px] lg:h-[400px] lg:w-[400px]">
             <Image
               src="/about_image.png"
@@ -51,7 +51,7 @@ const About = () => {
               style={{ objectFit: "cover" }}
             />
           </div>
-          <div className="grow space-y-8">
+          <div className="grow space-y-8 pb-10 lg:py-20">
             <h2 className="text-3xl lg:text-5xl text-white font-extrabold leading-snug">
               <span className="text-primary_orange">25 Years</span>
               <br /> of Experience!

@@ -14,17 +14,17 @@ const Hamburger = () => {
       </button>
       {isOpen && (
         <div className="absolute top-24 z-20 right-0 flex flex-col items-center gap-4 w-full text-white bg-primary_gray pb-4">
-          <Link href="#first-section" className="hover:text-primary_orange">
+          <Link href="#hero" className="hover:text-primary_orange">
             Home
           </Link>
-          <Link href="#second-section" className="hover:text-primary_orange">
+          <Link href="#about" className="hover:text-primary_orange">
             About us
           </Link>
-          <Link href="#first-section" className="hover:text-primary_orange">
-            Service
+          <Link href="#projects" className="hover:text-primary_orange">
+            Projects
           </Link>
-          <Link href="#second-section" className="hover:text-primary_orange">
-            Project
+          <Link href="#contact" className="hover:text-primary_orange">
+            Contact
           </Link>
           <button className="px-4 py-2 bg-primary_orange hover:bg-orange-600 text-white transition-color rounded-md">
             Contact us
