@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </span>
         </div>
-        <div className="w-full flex gap-8 py-10 sm:py-12">
+        <div className="w-full flex gap-8 py-10">
           <span className="flex items-center gap-2">
             <h2 className="text-primary_orange font-bold text-xl sm:text-3xl">25+</h2>
             <p className="text-white text-sm">

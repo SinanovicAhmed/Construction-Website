@@ -1,13 +1,13 @@
 export const projects = {
   allwork: [
-    "/projects/p1.jpg",
-    "/projects/p2.jpg",
-    "/projects/p3.jpg",
     "/projects/p4.jpg",
+    "/projects/p2.jpg",
+    "/projects/p1.jpg",
+    "/projects/p9.jpeg",
+    "/projects/p7.jpeg",
+    "/projects/p3.jpg",
     "/projects/p5.jpg",
     "/projects/p6.jpg",
-    "/projects/p7.jpeg",
-    "/projects/p9.jpeg",
     "/projects/p10.jpeg",
     "/projects/p11.jpeg",
   ],

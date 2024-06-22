@@ -22,8 +22,10 @@ const ConstructionWorkTabs = ({ setActiveType }) => {
       {tabs.map((tab) => (
         <label
           key={tab.id}
-          className={`text-xs sm:text-sm lg:text-base${
-            activeTab === tab.id ? "text-primary_gray border-b-2 border-primary_gray" : "text-white"
+          className={`text-xs sm:text-sm lg:text-base ${
+            activeTab === tab.id
+              ? "text-primary_gray border-b-2 border-primary_gray"
+              : " text-white"
           }`}
         >
           <input
