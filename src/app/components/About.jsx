@@ -9,19 +9,19 @@ const About = () => {
           <span className="flex gap-2">
             <CheckmarkSVG />
             <p className="text-white text-sm lg:text-base font-light">
-              Quality Control System, 100% Satisfaction Guarantee
+              Sistem za nadzor kakovosti, 100% jamstvo zadovoljstva
             </p>
           </span>
           <span className="flex gap-2">
             <CheckmarkSVG />
             <p className="text-white text-sm lg:text-base font-light">
-              Highly Proffesional Staff, Accurate Testing Processes
+              Visoko strokovno osebje, natančni testni postopki
             </p>
           </span>
           <span className="flex gap-2">
             <CheckmarkSVG />
             <p className="text-white text-sm lg:text-base font-light">
-              Unrivalled Workmanship, Proffesional and Qualified
+              Neprimerljivo obrtništvo, strokovno in usposobljeno
             </p>
           </span>
         </div>
@@ -29,15 +29,15 @@ const About = () => {
           <span className="flex items-center gap-2">
             <h2 className="text-primary_orange font-bold text-xl sm:text-3xl">25+</h2>
             <p className="text-white text-sm">
-              Years of
-              <br /> Experience
+              Let
+              <br /> izkušenj
             </p>
           </span>
           <span className="flex items-center gap-2">
             <h2 className="text-primary_orange font-bold text-xl sm:text-3xl">80+</h2>
             <p className="text-white text-sm">
-              Projects
-              <br /> completed
+              Projektov
+              <br /> zaključenih
             </p>
           </span>
         </div>
@@ -53,18 +53,18 @@ const About = () => {
           </div>
           <div className="grow space-y-8 pb-10 lg:py-20">
             <h2 className="text-3xl lg:text-5xl text-white font-extrabold leading-snug">
-              <span className="text-primary_orange">25 Years</span>
-              <br /> of Experience!
+              <span className="text-primary_orange">25 Let</span>
+              <br /> izkušenj!
             </h2>
             <p className="text-sm lg:text-base text-white font-light">
-              We have a team of experienced professionals who have been in the industry for over 25
-              years. Our contractors have a wealth of knowledge and skills that they have acquired
-              over the years, making them experts in their field.
+              Imamo ekipo izkušenih strokovnjakov, ki so v industriji že več kot 25 let. Naši
+              izvajalci imajo bogato znanje in spretnosti, ki so jih pridobili skozi leta, kar jih
+              naredi za strokovnjake na svojem področju.
               <br />
-              <br /> With 25 years of experience, our contractors have a deep understanding of
-              industry standards and regulations. We ensure that all our projects comply with the
-              latest safety and building codes, and that the final product meets or exceeds our
-              clients expectations.
+              <br /> S 25 leti izkušenj imajo naši izvajalci globoko razumevanje industrijskih
+              standardov in predpisov. Zagotavljamo, da vsi naši projekti ustrezajo najnovejšim
+              varnostnim in gradbenim standardom ter da končni izdelek izpolnjuje ali presega
+              pričakovanja naših strank.
             </p>
           </div>
         </div>

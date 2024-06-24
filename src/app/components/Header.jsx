@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import LanguageSelection from "./LanguageSelection";
 import Hamburger from "./Hamburger";
 
 const Header = () => {
@@ -12,27 +11,25 @@ const Header = () => {
         </Link>
         <div className="hidden md:flex gap-4 text-white">
           <Link href="#hero" className="hover:text-primary_orange">
-            Home
+            Domov
           </Link>
           <Link href="#about" className="hover:text-primary_orange">
-            About us
+            O nas
           </Link>
           <Link href="#projects" className="hover:text-primary_orange">
-            Projects
+            Projekti
           </Link>
           <Link href="#contact" className="hover:text-primary_orange">
-            Contact
+            Kontakt
           </Link>
         </div>
-        <div className="hidden md:flex gap-4">
-          <LanguageSelection />
-          <a
-            href="tel:+1234567890"
-            className="inline-block px-4 py-2 bg-primary_orange hover:bg-orange-600 text-white transition-color rounded-md"
-          >
-            Call us
-          </a>
-        </div>
+        <a
+          href="tel:+386 41 726 851"
+          className="hidden md:inline-block px-4 py-2 bg-primary_orange hover:bg-orange-600 text-white transition-color rounded-md"
+        >
+          Pokličite nas
+        </a>
+
         <Hamburger />
       </div>
     </nav>

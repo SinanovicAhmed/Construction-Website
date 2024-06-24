@@ -11,24 +11,23 @@ const Hero = () => {
       <div className="mx-auto max-w-[1280px] h-full flex items-center px-6 md:px-10">
         <div className="relative z-10 w-full sm:w-[50%] flex flex-col gap-8">
           <h2 className="text-white text-3xl lg:text-5xl font-bold">
-            We Prepare For The <span className="text-primary_orange">Future</span>
+            Pripravljamo se na <span className="text-primary_orange">prihodnost</span>
           </h2>
           <p className="text-white text-sm lg:text-base">
-            We provide the best architectural design, contruction, and building maintance services
-            for you.
+            Nudimo najboljše arhitekturne zasnove, gradbene in vzdrževalne storitve za vas.
           </p>
           <div className="flex gap-4">
             <Link
               href="#contact"
               className="px-4 py-2 text-sm lg:text-base bg-primary_orange hover:bg-orange-600 text-white transition-color rounded-md"
             >
-              Contact us
+              Kontaktirajte nas
             </Link>
             <Link
               href="#projects"
               className="px-4 py-2 text-sm lg:text-base bg-primary_gray hover:bg-gray-800 text-white transition-color rounded-md"
             >
-              View Projects
+              Oglejte si projekte
             </Link>
           </div>
         </div>

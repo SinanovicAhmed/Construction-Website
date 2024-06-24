@@ -26,9 +26,12 @@ const Hamburger = () => {
           <Link href="#contact" className="hover:text-primary_orange">
             Contact
           </Link>
-          <button className="px-4 py-2 bg-primary_orange hover:bg-orange-600 text-white transition-color rounded-md">
-            Contact us
-          </button>
+          <a
+            href="tel:+386 41 726 851"
+            className="inline-block px-4 py-2 bg-primary_orange hover:bg-orange-600 text-white transition-color rounded-md"
+          >
+            Call us
+          </a>
         </div>
       )}
     </div>

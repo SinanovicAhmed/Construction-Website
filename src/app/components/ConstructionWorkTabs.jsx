@@ -4,10 +4,10 @@ const ConstructionWorkTabs = ({ setActiveType }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    { id: 0, label: "All Work", tag: "allwork" },
-    { id: 1, label: "Construction", tag: "construction" },
-    { id: 2, label: "Renovation", tag: "renovation" },
-    { id: 3, label: "Landscaping", tag: "landscaping" },
+    { id: 0, label: "Vsi projekti", tag: "allwork" },
+    { id: 1, label: "Gradnja", tag: "construction" },
+    { id: 2, label: "Obnova", tag: "renovation" },
+    { id: 3, label: "Urejanje okolice", tag: "landscaping" },
   ];
 
   const handleTabChange = (event) => {
