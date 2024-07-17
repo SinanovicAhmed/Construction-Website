@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </span>
         </div>
-        <div className="w-full flex gap-8 py-10">
+        <div data-aos="zoom-in" className="w-full flex gap-8 py-10">
           <span className="flex items-center gap-2">
             <h2 className="text-primary_orange font-bold text-xl sm:text-3xl">25+</h2>
             <p className="text-white text-sm">
@@ -43,7 +43,10 @@ const About = () => {
         </div>
 
         <div className="flex justify-between items-end gap-2 lg:gap-24">
-          <div className="relative hidden md:block flex-none w-[300px] h-[300px] lg:h-[400px] lg:w-[400px]">
+          <div
+            data-aos="zoom-in"
+            className="relative hidden md:block flex-none w-[300px] h-[300px] lg:h-[400px] lg:w-[400px]"
+          >
             <Image
               src="/about_image.png"
               alt="About section image"

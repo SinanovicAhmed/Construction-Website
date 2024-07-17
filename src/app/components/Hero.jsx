@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-black/90 to-transparent"></div>
       <div className="mx-auto max-w-[1280px] h-full flex items-center px-6 md:px-10">
-        <div className="relative z-10 w-full sm:w-[50%] flex flex-col gap-8">
+        <div data-aos="fade-right" className="relative z-10 w-full sm:w-[50%] flex flex-col gap-8">
           <h2 className="text-white text-3xl lg:text-5xl font-bold">
             Pripravljamo se na <span className="text-primary_orange">prihodnost</span>
           </h2>

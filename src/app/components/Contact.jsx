@@ -31,7 +31,10 @@ const Contact = () => {
           </span>
         </div>
 
-        <div className="mx-auto space-y-8 inline-block bg-primary_orange text-white p-4 md:p-10 my-4 rounded-lg">
+        <div
+          data-aos="zoom-in"
+          className="mx-auto space-y-8 inline-block bg-primary_orange text-white p-4 md:p-10 my-4 rounded-lg"
+        >
           <h2 className="text-2xl font-bold text-center text-primary_gray">Kontaktni podatki</h2>
           <div>
             <h3 className="font-semibold text-primary_gray">Naša lokacija</h3>
